@@ -1,0 +1,14 @@
+using UnityEngine;
+
+[CreateAssetMenu(fileName = "#SCRIPTNAME#", menuName = "GBFStateMachine/#SCRIPTNAME#")]
+public class #SCRIPTNAME# : GBStateSOBase
+{
+    public virtual void Initialize(GBGenericController owner){
+        base.Initialize(owner);
+    }
+
+    public override void EnterState(){}
+    public override void ExitState(){}
+    public override void TickState(){}
+    public override void PhysicsTickState(){}
+}
